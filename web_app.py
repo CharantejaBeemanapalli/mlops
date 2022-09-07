@@ -13,7 +13,7 @@ def web_app():
     # Breast Cancer Predictor Web App
     ## This app predicts whether cancer is Benign or Malignant.
    """)
-
+    st.image("""https://images.medicinenet.com/images/slideshow/cancer-101-s1-what-is-cancer-cell.jpg""")
     st.header("User Details")
     st.subheader("Kindely Enter The following Details in order to make a prediction")
 
