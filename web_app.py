@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 from numpy import outer
 
-model = joblib.load('C:/Users/Admin/Downloads/cancer.pkl')
+model = joblib.load('cancer.pkl')
 
 
 def web_app():
